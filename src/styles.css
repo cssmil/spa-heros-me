@@ -1,0 +1,46 @@
+.cards-hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cards-hero article{
+  max-width: 200px;
+  padding: 0;
+  margin: 20px 0 20px;
+}
+
+.p-2 {
+  padding: 10px;
+}
+
+.hero-data {
+  display: flex;
+  gap: 20px;
+  border: solid 1px gray;
+  padding: 20px;
+}
+
+.hero-data img{
+  max-width: 300px;
+}
+
+.navbar {
+  justify-content: space-between;
+  width: 100%;
+}
+
+.navbar__items {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  margin-left: 50px;
+}
+
+.navbar__items span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
